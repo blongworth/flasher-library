@@ -32,3 +32,8 @@ void Flasher::run() {
         digitalWrite(_ledPin, ledState);
     }
 }
+
+void Flasher::update(int onTime, int offTime) {
+    _onTime = onTime;
+    _offTime = offTime;
+}

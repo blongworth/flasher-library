@@ -16,6 +16,7 @@ public:
     Flasher(int ledPin, int onTime, int offTime);
     void begin();
     void run();
+    void update(int onTime, int offTime);
 };
 
 #endif
