@@ -1,3 +1,22 @@
+/*!
+ * @file Flasher.cpp
+ *
+ * @mainpage LED flasher Library
+ *
+ * @section intro_sec Introduction
+ *
+ * This is a library for flashing LEDs without blocking with a
+ * variable duty cycle
+ *
+ * @section author Author
+ *
+ * Written by Brett Longworth
+ *
+ * @section license License
+ *
+ * BSD license, all text above must be included in any redistribution
+ */
+
 #include <Arduino.h>
 #include "Flasher.h"
 

@@ -1,4 +1,13 @@
-
+/*!
+ * @file Flasher.h
+ *
+ * This is a library for flashing LEDs without blocking with a
+ * variable duty cycle
+ *
+ * Written by Brett Longworth
+ *
+ * BSD license, all text above must be included in any redistribution
+ */
 #ifndef Flasher_h
 #define Flasher_h
 
